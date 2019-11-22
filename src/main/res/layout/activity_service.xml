@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text = "Our Services"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textSize = "35dp"
+        android:textColor="#0A0A0A"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="20dp"/>
+    <Button
+        android:id="@+id/service1"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginRight="20dp"
+        android:text="Cloth Wash"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/service2"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="85dp"
+        android:text="Cloth Iron"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service3"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="175dp"
+        android:text="AC Installation"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service4"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="175dp"
+        android:text="Gas Service"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service5"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="265dp"
+        android:text="Kitchen Cleaning"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service6"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="265dp"
+        android:text="Bathroom Cleaning"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service7"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="355dp"
+        android:text="Sofa Cleaning"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service8"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="355dp"
+        android:text="Refrigerator Service"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service9"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="445dp"
+        android:text="AC service"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service10"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="445dp"
+        android:text="RO Service"
+        android:textSize="18dp" />
+    <Button
+        android:id="@+id/service11"
+        android:layout_width="164dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="535dp"
+        android:text="Microwave Service"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:text="Home"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="#F2070707"
+        android:textColor="#F7F5F0F0"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="185dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="200dp"
+        android:background="#F2070707"
+        android:layout_marginBottom="3dp"
+        android:text="Profile"
+        android:textColor="#F7F5F0F0"
+        android:textSize="24sp" />
+
+</RelativeLayout>

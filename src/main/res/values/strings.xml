@@ -1,0 +1,15 @@
+<resources>
+  <string-array name="sids">
+      <item>50 - Cloth Wash</item>
+      <item>51 - Cloth Iron</item>
+      <item>52 - Ac installation</item>
+      <item>53 - Gas Service</item>
+      <item>54 - Kitchen Cleaning</item>
+      <item>55 - Bathroom Cleaning</item>
+      <item>56 - Sofa Cleaning</item>
+      <item>57 - Refrigerator Service</item>
+      <item>58 - AC service</item>
+      <item>59 - RO Service</item>
+      <item>60 - Microwave Service</item>
+  </string-array>
+</resources>

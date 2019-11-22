@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.servicesnearme">
+
+    <dist:module dist:instant="true" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name="com.example.servicesnearme.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Services Near Me"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".ChangePassword"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".Update"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".Bill"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".GenerateBill"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".ProfessionalLogin"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".ProfessionalSignUp"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".Request"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".AdminLogin"
+            android:label="Services Near Me">
+        </activity>
+        <activity
+            android:name=".AdminRequest"
+            android:label="Services Near Me">
+        </activity>
+    </application>
+
+</manifest>

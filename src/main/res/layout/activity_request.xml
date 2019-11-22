@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Request">
+
+
+    <TextView
+        android:text = "Your Requests"
+        android:layout_width="wrap_content"
+        android:layout_height = "wrap_content"
+        android:id = "@+id/textview"
+        android:textColor="#0A0A0A"
+        android:textSize = "35dp"
+        android:layout_alignParentTop = "true"
+        android:layout_centerHorizontal = "true"
+        android:layout_marginTop="40dp"/>
+    <TextView
+        android:id="@+id/t_req1"
+        android:layout_width="168dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="130dp"
+        android:text="Request 1"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_accept2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="125dp"
+        android:text="Accept"
+        android:background="#1D8021"
+        android:textColor="#F8FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_reject2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="125dp"
+        android:text="Reject"
+        android:background="#E91708"
+        android:textColor="#F7FFFFFF"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/t_req2"
+        android:layout_width="168dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="230dp"
+        android:text="Request 2"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_accept1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="175dp"
+        android:layout_marginTop="225dp"
+        android:text="Accept"
+        android:background="#1D8021"
+        android:textColor="#F8FFFFFF"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_reject1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="275dp"
+        android:layout_marginTop="225dp"
+        android:text="Reject"
+        android:background="#E91708"
+        android:textColor="#F7FFFFFF"
+        android:textSize="18sp" />
+</RelativeLayout>
